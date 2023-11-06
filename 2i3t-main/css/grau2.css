@@ -1,0 +1,9 @@
+body {
+    background-color: #9cebeb;
+}
+.entrada {
+    width: 40px;
+    background-color: #9cebeb;
+    border: none;
+    border-bottom: 2px solid #000;
+}

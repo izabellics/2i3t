@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/script.js"></script>
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <section id="pa"> 
+        <h1>Progressao Aritimetica</h1>
+        P.A. a<sub>1</sub>, a <sub>2</sub>,...a <sub>2</sub> <br>
+        Calculo da razaõ: r = a <br>
+        Cálculo do último termo (n): a <sub>n</sub> = a <sub>1</sub> . (n - 1) . r<br>
+        Soma de termos: S <sub>1</sub> (a <sub>1</sub> + a <sub>n</sub>) * (n/2) <br>
+
+        <div class="caluloPA">
+            a <sub>1</sub>: <input onchange="setpa_al()" type="number" name="" id="pa_a1"><br>
+            r = <input onchange="setpa_r" type="number" id="pa_r"><br>
+            n = <input onchange="setpa_n" type="number" id="pa_n"><br>
+            Sequencia: <span id="pa_seq"></span>
+        </div>
+
+    </section>
+</body>
+</html>

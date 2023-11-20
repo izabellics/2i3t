@@ -17,12 +17,28 @@
         Soma de termos: S <sub>1</sub> (a <sub>1</sub> + a <sub>n</sub>) * (n/2) <br>
 
         <div class="caluloPA">
-            a <sub>1</sub>: <input onchange="setpa_al()" type="number" name="" id="pa_a1"><br>
-            r = <input onchange="setpa_r" type="number" id="pa_r"><br>
-            n = <input onchange="setpa_n" type="number" id="pa_n"><br>
+            a <sub>1</sub>: <input onchange="setpa_a1()" type="number" name="" id="pa_a1"><br>
+            r = <input onchange="setpa_r()" type="number" id="pa_r"><br>
+            n = <input onchange="setpa_n()" type="number" id="pa_n"><br>
+
             Sequencia: <span id="pa_seq"></span>
         </div>
 
+    </section>
+    <section id="pg">
+        <h1>Progressao Geometrica </h1>
+        P.G.: a<sub>1</sub>,a<sub>2</sub>, a<sub>2</sub>, ...a<sub>n</sub><br>
+        Cálculo da razão: q = a<sub>2</sub> / a<sub>1</sub> <br>
+        Cálculo do último termo (n): (a<sub>n</sub> = a<sub>1</sub> . q<sup>(n-1)</sup>)<br>
+        Soma de n termos: S<sub>n</sub> = (a<sub>1</sub>(q<sup>n</sup> - 1))/(q-1)<br>
+
+        <div class="caluloPG">
+            a <sub>1</sub>: <input onchange="setpg_a1()" type="number" name="" id="pa_a1"><br>
+            r = <input onchange="setpg_r()" type="number" id="pa_r"><br>
+            n = <input onchange="setpg_n()" type="number" id="pa_n"><br>
+
+            Sequencia: <span id="pa_seq"></span>
+        </div>
     </section>
 </body>
 </html>
